@@ -38,3 +38,16 @@ function ex1(){
 
 //nota: NÃO FUNCIONOU - ENTENDER O MOTIVO
 
+// Jogo da escadinha
+// Pedir o tamanho da escada para o usuario, e imprimir uma escada.
+
+function ex2(){
+
+var degraus = parseFloat(prompt("Altura da Escada"));
+var material = prompt("Material da escada");
+var degraus = "";
+
+for (var i=0; i < degraus; i++){
+    console.log(degraus = degraus + material);
+}
+}
